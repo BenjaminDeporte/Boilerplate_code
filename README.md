@@ -1,16 +1,6 @@
 # Boilerplate_code
 My boilerplate code for lots of usual Pytorch stuff
 
-<<<<<<< HEAD
-1- Regression analysis:neural network
-    - setup Cuda
-    - dataset/dataloader
-    - early stopping callback class
-    - train/test pipeline
-
-2- Regression analysis: Gaussian Process
-    - implementation GPyTorch
-=======
 1- "Regression_NN_GP":
     A) Neural Net
     - set up Cuda
@@ -22,4 +12,9 @@ My boilerplate code for lots of usual Pytorch stuff
     B) Gaussian Process regressor on GPyTorch
     - Exact model, Gaussian likelihood
     - Training loop, predictions
->>>>>>> 52c4d5d (added data rezpo and FFT)
+
+2- "Fourier Transform":
+    - use of scipy.fft.rftt to compute the complex coefficients of a Fourier transform
+    - use of scipy.fft.rfftfreq to compute the corresponding frequencies
+    - plot the Fourier transform of a signal
+    - use of scipy.signal.welch to get the spectral density of a signal
